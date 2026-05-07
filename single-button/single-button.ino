@@ -59,7 +59,7 @@ bool connectWiFi() {
 
   WiFi.mode(WIFI_STA);
 
-  WiFi.setSleep(false);
+  WiFi.setSleep(true);
 
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
 
